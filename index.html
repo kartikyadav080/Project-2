@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./Project CSS/logo.png" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="option">
+            <div class="library-options lib-options nav-option">
+              <img src="./Project CSS/library_icon.png" alt="Library" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="library-icons lib-options">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-boxes">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">Its's easy, we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box box-2">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Here goes mid part -->
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-options">
+          <img src="./Project CSS/backward_icon.png" alt="">
+          <img src="./Project CSS/forward_icon.png" alt="" style="margin-left: 0.7rem;" class="hide">
+          </div>
+          <div class="sticky-nav-badges">
+          <button class="badge sticky-right hide">Explore Premium</button>
+          <button class="badge sticky-right black-badge"><i class="fa-regular fa-circle-down" style="margin-right: 0.25rem; padding-top: 0.05rem;"></i>Install App</button>
+          <i class="fa-regular fa-user sticky-right faa"></i>
+          </div>
+        </div>
+        <!-- Here goes main card part -->
+
+        <div class="main-cards">
+
+          <h2>Recenty played</h2>   <!-- Heading 1 -->
+          <div class="cards-container">
+            <div class="cards">
+            <img src="./Project CSS/card1img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+          </div>
+
+          <h2>Trending now near you</h2>   <!-- Heading 2 -->
+          <div class="cards-container">
+            <div class="cards">
+            <img src="./Project CSS/card2img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+
+            <div class="cards">
+            <img src="./Project CSS/card3img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+
+            <div class="cards">
+            <img src="./Project CSS/card4img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+
+            <div class="cards">
+            <img src="./Project CSS/card2img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+
+          </div>
+
+          <h2>Featured chart</h2>   <!-- Heading 3 -->
+          <div class="cards-container">
+            <div class="cards">
+            <img src="./Project CSS/card5img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+
+            <div class="cards">
+            <img src="./Project CSS/card6img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+
+            <div class="cards">
+            <img src="./Project CSS/card1img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top - 50 Global</p>
+            <p class="card-content">Your daily updates of the most played tracks...</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+          </div>
+      </div>
+
+      <footer class="music-player" aria-label="Music player">
+        <div class="player-track">
+          <img
+            class="player-artwork"
+            src="./Project CSS/card1img.jpeg"
+            alt="Album artwork"
+          />
+          <div class="track-details">
+            <p class="track-title">Daylight</p>
+            <p class="track-artist">David Kushner</p>
+          </div>
+          <button class="icon-button like-button" type="button" aria-label="Add to Liked Songs">
+            <i class="fa-regular fa-heart" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <div class="player-center">
+          <div class="player-controls" aria-label="Playback controls">
+            <button class="icon-button secondary-control" type="button" aria-label="Shuffle">
+              <i class="fa-solid fa-shuffle" aria-hidden="true"></i>
+            </button>
+            <button class="icon-button" type="button" aria-label="Previous track">
+              <i class="fa-solid fa-backward-step" aria-hidden="true"></i>
+            </button>
+            <button class="play-button" type="button" aria-label="Play">
+              <i class="fa-solid fa-play" aria-hidden="true"></i>
+            </button>
+            <button class="icon-button" type="button" aria-label="Next track">
+              <i class="fa-solid fa-forward-step" aria-hidden="true"></i>
+            </button>
+            <button class="icon-button secondary-control" type="button" aria-label="Repeat">
+              <i class="fa-solid fa-repeat" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="track-progress">
+            <span class="track-time">1:24</span>
+            <input
+              class="progress-slider"
+              type="range"
+              min="0"
+              max="100"
+              value="38"
+              aria-label="Track progress"
+            />
+            <span class="track-time">3:45</span>
+          </div>
+        </div>
+
+        <div class="player-extras" aria-label="More playback options">
+          <button class="icon-button extra-control" type="button" aria-label="Now playing view">
+            <i class="fa-solid fa-list" aria-hidden="true"></i>
+          </button>
+          <button class="icon-button extra-control" type="button" aria-label="Connect to a device">
+            <i class="fa-solid fa-computer" aria-hidden="true"></i>
+          </button>
+          <i class="fa-solid fa-volume-high volume-icon" aria-hidden="true"></i>
+          <input
+            class="volume-slider"
+            type="range"
+            min="0"
+            max="100"
+            value="70"
+            aria-label="Volume"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
